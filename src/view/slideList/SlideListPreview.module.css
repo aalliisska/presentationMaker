@@ -1,0 +1,13 @@
+.preview {
+  border: 2px solid #D9D9D9;
+  border-radius: 6px;
+  margin: 10px 20px 10px 20px;
+  --width: 225px;
+	width: var(--width);
+	height: calc(var(--width) * 9 / 16);
+  overflow: hidden;
+}
+
+.preview:hover {
+  border-color: #6535e6;
+}

@@ -1,0 +1,42 @@
+.menuButton {
+  display: block;
+  transform-origin: 16px 11px;
+  float: left;
+  outline: 0;
+  border: 0;
+  background: none;
+}
+
+.menuButton:hover span:nth-of-type(1) {
+  width: 33px;
+}
+
+.menuButton:hover span:nth-of-type(2) {
+  width: 40px;
+}
+
+.menuButton:hover span:nth-of-type(3) {
+  width: 30px;
+}
+
+.active span:nth-of-type(1) {
+  transform: rotate(45deg) translate(10px, 10px);
+  width: 28px;
+}
+
+.active span:nth-of-type(2) {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.active span:nth-of-type(3) {
+  transform: rotate(-45deg) translate(7px, -7px);
+}
+
+.bar {
+  display: block;
+  width: 35px;
+  height: 3px;
+  margin-bottom: 7px;
+  background-color: #000000;
+}

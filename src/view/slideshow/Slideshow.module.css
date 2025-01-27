@@ -1,0 +1,30 @@
+.slideshow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.space {
+  --width: 1100px;
+  --scale-factor: 0.8; 
+  --scaled-width: calc(var(--width) * var(--scale-factor)); 
+  width: var(--scaled-width);
+  height: calc(var(--scaled-width) * 9 / 16);
+  pointer-events: none;
+}
+
+.link {
+  display: flex;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.workspace {
+  display: flex;
+}
+
+.button {
+  border: none;
+}

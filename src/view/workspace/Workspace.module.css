@@ -1,0 +1,18 @@
+.space {
+	height: 100%;
+	width: calc(100vw - var(--left-part-width));
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.workspace {
+	--width: 1100px;
+	width: var(--width);
+	height: calc(var(--width) * 9 / 16);
+	background-color: white;
+	border-radius: 6px;
+	border: 2px solid #D9D9D9;
+	position: relative;
+}

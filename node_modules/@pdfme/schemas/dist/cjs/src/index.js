@@ -1,0 +1,38 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.checkbox = exports.radioGroup = exports.select = exports.time = exports.date = exports.dateTime = exports.ellipse = exports.rectangle = exports.line = exports.barcodes = exports.table = exports.svg = exports.image = exports.multiVariableText = exports.text = exports.builtInPlugins = void 0;
+const index_1 = __importDefault(require("./multiVariableText/index"));
+exports.multiVariableText = index_1.default;
+const index_2 = __importDefault(require("./text/index"));
+exports.text = index_2.default;
+const image_1 = __importDefault(require("./graphics/image"));
+exports.image = image_1.default;
+const svg_1 = __importDefault(require("./graphics/svg"));
+exports.svg = svg_1.default;
+const index_3 = __importDefault(require("./barcodes/index"));
+exports.barcodes = index_3.default;
+const line_1 = __importDefault(require("./shapes/line"));
+exports.line = line_1.default;
+const index_4 = __importDefault(require("./tables/index"));
+exports.table = index_4.default;
+const rectAndEllipse_1 = require("./shapes/rectAndEllipse");
+Object.defineProperty(exports, "rectangle", { enumerable: true, get: function () { return rectAndEllipse_1.rectangle; } });
+Object.defineProperty(exports, "ellipse", { enumerable: true, get: function () { return rectAndEllipse_1.ellipse; } });
+const dateTime_1 = __importDefault(require("./date/dateTime"));
+exports.dateTime = dateTime_1.default;
+const date_1 = __importDefault(require("./date/date"));
+exports.date = date_1.default;
+const time_1 = __importDefault(require("./date/time"));
+exports.time = time_1.default;
+const index_5 = __importDefault(require("./select/index"));
+exports.select = index_5.default;
+const index_6 = __importDefault(require("./radioGroup/index"));
+exports.radioGroup = index_6.default;
+const index_7 = __importDefault(require("./checkbox/index"));
+exports.checkbox = index_7.default;
+const builtInPlugins = { Text: index_2.default };
+exports.builtInPlugins = builtInPlugins;
+//# sourceMappingURL=index.js.map

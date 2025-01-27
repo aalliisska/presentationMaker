@@ -1,0 +1,25 @@
+.input {
+  position: absolute;
+  visibility: hidden;
+  width: 0;
+}
+
+.text {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.text:hover {
+    background-position: calc(90% + px) center; /* Adjust hover effect */
+    color: #00055b;
+    cursor: pointer;
+}
+
+.button {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+

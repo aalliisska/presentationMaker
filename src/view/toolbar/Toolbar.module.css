@@ -1,0 +1,85 @@
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-left: 20px;
+}
+
+.swatch {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 51.5px;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+.family {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 55px;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  gap: 5px;
+  justify-content: center;
+}
+
+.swatch:hover {
+  border-color: #6535e6
+}
+
+.family:hover {
+  border-color: #6535e6
+}
+
+.info {
+  font-size: 18px;
+  color: #000000;
+  font-weight: 500;
+  font-family: inherit;
+  height: 20px;
+}
+
+.load {
+  font-size: 18px;
+  border: none;
+  background: transparent;
+  padding: 10px;
+}
+
+.imageOut {
+  font-size: 18px;
+  background: transparent;
+  padding: 10px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.imageOut:hover {
+  border-color: #6535e6;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  font-size: 18px;
+  color: #000000;
+  font-weight: 500;
+  font-family: inherit;
+}
+
+.arrows {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-left: 20px;
+}

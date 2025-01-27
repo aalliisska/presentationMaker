@@ -1,0 +1,15 @@
+.textObject {
+  border: none; 
+	cursor: move;
+}
+
+.textObject:hover {
+	border: 2px solid #6535E6;
+}
+
+.input {
+  border: none;
+  width: 100%;
+  color: black;
+  outline: none;
+}

@@ -1,0 +1,26 @@
+.input {
+  border: none;
+  width: 35px;
+  color: black;
+  outline: none;
+  font-size: 30px;
+}
+
+.button {
+  font-size: 18px;
+  background: transparent;
+  padding: 10px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+}
+
+.button:hover {
+  border-color: #6535e6;
+}
+
+.putsize {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
